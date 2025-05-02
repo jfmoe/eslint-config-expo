@@ -16,6 +16,7 @@ export default [
 
             'builtin',
             'external',
+            { newlinesBetween: 'always' },
             'internal',
             ['parent', 'sibling', 'index'],
             'side-effect',

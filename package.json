@@ -1,11 +1,13 @@
 {
   "name": "@jfmoe/eslint-config-expo",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "ESLint config for Expo apps",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "pnpm publish --access public --no-git-checks",
+    "release:beta": "pnpm publish --tag beta --access public --no-git-checks"
   },
   "repository": {
     "type": "git",
