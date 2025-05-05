@@ -1,4 +1,5 @@
 import globals from 'globals'
+
 import expoConfig from './index.js'
 
 export default [

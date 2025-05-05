@@ -1,6 +1,7 @@
 import expo from 'eslint-plugin-expo'
 import importPlugin from 'eslint-plugin-import'
 import globals from 'globals'
+
 import { jsExtensions } from './extensions.js'
 
 export default [

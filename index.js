@@ -1,5 +1,6 @@
 import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
+
 import coreConfig from './utils/core.js'
 import expoConfig from './utils/expo.js'
 import { allExtensions } from './utils/extensions.js'

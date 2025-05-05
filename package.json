@@ -26,6 +26,7 @@
   "author": "jfmoe",
   "license": "MIT",
   "dependencies": {
+    "@ninoseki/eslint-plugin-neverthrow": "^0.0.1",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",

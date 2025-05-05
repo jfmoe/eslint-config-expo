@@ -1,6 +1,8 @@
+import neverthrow from '@ninoseki/eslint-plugin-neverthrow'
 import typescriptEslint from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
 import importPlugin from 'eslint-plugin-import'
+
 import { jsExtensions, tsExtensions } from './extensions.js'
 
 const allExtensions = [...jsExtensions, ...tsExtensions]
@@ -21,6 +23,7 @@ export default [
 
     plugins: {
       '@typescript-eslint': typescriptEslint,
+      neverthrow,
     },
 
     languageOptions: {
@@ -100,6 +103,8 @@ export default [
           fixStyle: 'inline-type-imports',
         },
       ],
+
+      'neverthrow/must-use-result': 'error',
     },
   },
 ]
