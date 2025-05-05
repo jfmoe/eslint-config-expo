@@ -1,6 +1,6 @@
 {
   "name": "@jfmoe/eslint-config-expo",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "ESLint config for Expo apps",
   "main": "index.js",
   "type": "module",
