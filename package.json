@@ -24,24 +24,24 @@
   "author": "jfmoe",
   "license": "MIT",
   "dependencies": {
-    "@stylistic/eslint-plugin": "^4.2.0",
-    "@typescript-eslint/eslint-plugin": "^8.18.2",
-    "@typescript-eslint/parser": "^8.18.2",
-    "eslint-config-expo": "link:",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-antfu": "^3.1.1",
-    "eslint-plugin-expo": "^0.1.4",
-    "eslint-plugin-import": "^2.30.0",
-    "eslint-plugin-perfectionist": "^4.12.3",
-    "eslint-plugin-react": "^7.37.3",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "globals": "^16.0.0"
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.2",
+    "@typescript-eslint/parser": "^8.59.2",
+    "eslint-config-expo": "~55.0.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-antfu": "^3.2.2",
+    "eslint-plugin-expo": "^1.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-perfectionist": "^5.9.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0"
   },
   "devDependencies": {
-    "eslint": "^9.18.0"
+    "eslint": "^9.39.4"
   },
   "peerDependencies": {
     "eslint": ">=9.0.0"
   },
-  "packageManager": "pnpm@10.10.0"
+  "packageManager": "pnpm@10.33.3"
 }
