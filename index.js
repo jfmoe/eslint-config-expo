@@ -49,6 +49,9 @@ export default defineConfig([
   },
   globalIgnores([
     '**/.expo/**',
+    '**/.agents/**',
+    '**/.claude/**',
+    '**/.cursor/**',
     '**/bin/**',
     '**/dist/**',
     '**/ios/*',
